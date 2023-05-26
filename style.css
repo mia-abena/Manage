@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    position: relative;top: 
+}
+li{
+    list-style: none;
+    color: black;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    display: flex;
+    gap: 1.5rem;
+}
+:hover{
+    cursor: pointer;
+}
+
+button{
+    color: white;
+    background-color: orangered;
+    border-radius: 2rem; 
+    padding: 1rem 3rem;
+    margin: 2rem;
+}
+.header{
+    display: flex;
+}
+h1{
+    margin-left: 1rem;
+    padding: 2rem;
+    font-size: 4rem;
+    color: rgb(27, 27, 71);
+}
+.header p{
+    margin-left: 1rem;
+    padding: 2rem;
+    padding-top: 0.2rem;
+    font-weight: bold;
+    color: rgb(196, 196, 207);
+    
+}
+.header img{
+    margin-left: 10rem;
+}
+h3{
+    margin-left: 1rem;
+    padding: 2rem;
+    font-size: 3rem;
+    color: rgb(28, 28, 83);
+}
+.about-container{
+    display: flex;
+}
+.about-container button{
+    padding: 0.7rem 1.5rem;
+    margin-left: 10rem;
+    
+    
+}
+.dot p{
+    margin-left: 1rem;
+    padding: 2rem;
+    padding-top: 0.2rem;
+    font-weight: bold;
+    color: rgb(196, 196, 207);
+}
+.one h4{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(28, 28, 83);
+    font-weight: bold;
+}
+.one p{
+    padding: 1rem;
+    padding-top: 0.2rem;
+    font-weight: bold;
+    color: rgb(196, 196, 207);
+}
+.second{
+    margin-top: 4.5rem;
+}
+
+.third{
+    margin-top: 4.5rem;
+}
+.career-container h3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5rem;
+}
+.two{
+    display: flex;
+    gap: 2rem;
+    margin-top: 7rem;
+}
+.image1{
+    background-color: azure;
+}
+.image1 img{
+    margin-left: 10rem;
+    position: relative;
+    top: -50px;
+}
+.image1 h4{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(28, 28, 83);
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+}
+.image1 p{
+    margin-left: 1rem;
+    color: rgb(196, 196, 207);
+    position: relative;
+    top: -20px;
+}
+.image2{
+    background-color: azure;
+}
+.image2 img{
+    margin-left: 10rem;
+    position: relative;
+    top: -50px;
+}
+.image2 h4{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(28, 28, 83);
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+}
+.image2 p{
+    margin-left: 1rem;
+    color: rgb(196, 196, 207);
+    position: relative;
+    top: -20px;
+}
+.image3{
+    background-color: azure;
+}
+.image3 img{
+    margin-left: 10rem;
+    position: relative;
+    top: -50px;
+}
+.image3 h4{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(28, 28, 83);
+    font-weight: bold;
+    position: relative;
+    top: -20px;
+}
+.image3 p{
+    margin-left: 1rem;
+    color: rgb(196, 196, 207);
+    position: relative;
+    top: -20px;
+}
+.career-container button{
+    margin-left: 35rem;
+    margin-top: 5rem;
+}
+.content-container{
+    background-color: orangered;
+    display: flex;
+}
+.content-container h3{
+    color: white;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.content-container button{
+    background-color: white;
+    color: orangered;
+    margin-left: 25rem;
+    margin-top: 5rem;
+}
+.footer-container{
+    background-color: rgb(30, 30, 36);
+}
+.footer-container img{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 3rem;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+    margin-left: 3rem;
+    padding-top: 3rem;
+    position: relative;
+    top: -20px;
+}
+.facebook{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.youtube{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pinterest{
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter{
+    color: white;
+}
+.instagram{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.end{
+    display: flex;
+}
+.last{
+    margin-left: 7rem;
+}
+
+.footer-container li{
+    color: white;
+}
+.home{
+    position: relative;
+    top: -60px;
+    
+}
+.pricing{
+    position: relative;
+    top: -50px;
+}
+.products{
+    position: relative;
+    top: -40px;
+}
+.aboutus{
+    position: relative;
+    top: -30px;
+}
+.last2{
+    margin-left: 18rem;
+}
+.careers{
+    position: relative;
+    top: -60px;
+}
+.community{
+    position: relative;
+    top: -50px;
+}
+.privacy{
+    position: relative;
+    top: -40px;
+}
+.inbox button{
+    background-color: white;
+    color: rgb(196, 196, 207);
+    margin-left: 7rem;
+    margin-top: 5rem;+
+    position: relative;
+    top: -140px;
+}
+.go button{
+    padding: 0.7rem 1.5rem;
+    position: relative;
+    top: -90px;
+    
+}
+.inbox h6{
+    color: rgb(196, 196, 207);
+    position: relative;
+    top: -90px;
+    margin-left: 10rem;
+}
+
+
+
+
+
+/* MOBILE VIEW */
+@media (max-width: 700px) {
+    ul li{
+        display: none;
+    }
+    .hero-section button{
+        display: none;
+    }
+    .header{
+        flex-direction: column-reverse;
+    }
+    
+    h1{
+        
+    }
+ }
+ 
+ 
+    
+    
